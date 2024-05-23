@@ -1,4 +1,27 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+#counter{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+#btns{
+    text-align: center;
+}
+
+.btn{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(75, 73, 80);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover{
+    background-color: rgb(52, 50, 56);
+    text-shadow: rgb(215, 204, 255) 0 0 10px;
 }
